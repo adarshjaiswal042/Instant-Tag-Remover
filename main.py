@@ -5,9 +5,9 @@ from pyrogram.types import Message, User
 
 bughunter0 = Client(
     "botname",
-    bot_token=os.environ["BOT_TOKEN"],
-    api_id=int(os.environ["API_ID"]),
-    api_hash=os.environ["API_HASH"],
+    bot_token=os.environ["6572682589:AAF5takH59uV7c5PnYjs0BLFwktovJqrxmo"],
+    api_id=int(os.environ["25992046"]),
+    api_hash=os.environ["6d5400a082dd8fc7989d4a60371934a8"],
 )
 
 @bughunter0.on_message(filters.command(["start"]))
